@@ -37,7 +37,7 @@ span {
     display: flex;
 }
 
-main, footer {
+main {
     background-color: #000;
 }
 
@@ -48,6 +48,7 @@ footer {
     flex-direction: column;
     border-top: 1px solid #33A8DB;
     border-bottom: 1px solid #33A8DB;
+    background-image: linear-gradient(to bottom, #000, #0b242e);
 }
 
 .banner {
