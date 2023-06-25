@@ -1,4 +1,5 @@
 @import url(styles-hover.css);
+@import url(scrollbar.css);
 
 * {
     margin: 0;
