@@ -29,6 +29,7 @@ h2 {
 a {
     text-decoration: none;
     color: #33A8DB;
+    font-weight: 900;
 }
 
 span {
@@ -46,18 +47,18 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border-top: 1px solid #33A8DB;
-    border-bottom: 1px solid #33A8DB;
+    border-top: 1px solid #33a9db6b;
+    border-bottom: 1px solid #33a9db6b;
     background-image: linear-gradient(to bottom, #000, #0b242e);
 }
 
 .banner {
-    background-image: url(./assets/images/banner.png), linear-gradient(to bottom, #000, #0b242e, #0b242e, #000);
+    background-image: url(./assets/images/banner.png), linear-gradient(to bottom, #000000, #0b242e, #000000);
     height: 605px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 1px solid #33A8DB;
+    border-top: 1px solid #33a9db6b;
 }
 
 .banner-content {
@@ -73,12 +74,17 @@ footer {
 
 .logo {
     border-radius: 50%;
-    width: 220px;
-    height: 220px;
+    width: 200px;
+    height: 210px;
     padding: 25px;
-    background: rgba(0, 0, 0, 0.304);
+    background: rgba(0, 0, 0, 0.173);
     display: flex;
     justify-content: center;
+}
+
+.banner .banner-content .logo img {
+    width: 220px;
+    height: 200px;
 }
 
 #text-trilha-css {
@@ -88,6 +94,8 @@ footer {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-weight: 400;
+    width: 600px;
+    text-align: center;
     color: white;
 }
 
@@ -116,9 +124,15 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 24px;
-    padding: 118px;
+    padding: 110px;
     padding-bottom: 100px;
-    border-top: 1px solid #33A8DB;
+    border-top: 1px solid #33a9db6b;
+}
+
+#course-content h2 {
+    margin-top: -25px;
+    letter-spacing: 4px;
+    
 }
 
 #text-aprender {
@@ -139,8 +153,8 @@ footer {
     background-position-y: -100px;
     display: flex;
     justify-content: left;
-    border-top: 1px solid #33A8DB;
-    border-bottom: 1px solid #33A8DB;
+    border-top: 1px solid #33a9db6b;
+    border-bottom: 1px solid #33a9db6b;
 }
 
 .text-transform-world {
@@ -148,7 +162,7 @@ footer {
     color: #FFF;
     font-size: 40px;
     font-weight: 900;
-    width: 275px;
+    width: 245px;
     margin-top: 120px;
     margin-left: 198px;
     margin-bottom: 120px;
@@ -176,7 +190,7 @@ footer {
     font-size: 32px;
     text-align: center;
     font-weight: 700;
-    letter-spacing: 6.08px;
+    letter-spacing: 3.36px;
 }
 
 #professional-challenges img {
@@ -201,15 +215,16 @@ footer img {
     width: 310px;
     margin-top: 59px;
     margin-left: 540px;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
 }
 
 footer p {
-    margin-left: 570px;
+    margin-left: 565px;
     margin-bottom: 38px ;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     color: #FFF;
+    font-weight: 400;
 }
 
 footer a {
@@ -223,17 +238,18 @@ footer a {
     border-radius: 57px;
     background: #252525;
     box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.40) inset;
-    width: 535px;
-    padding: 16px;
+    width: 510px;
+    height: 30px;
+    padding: 10px;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 
 .modules-list {
     color: #ffffff;
-    width: 535px;
-    gap: 10px;
+    gap: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
