@@ -1,0 +1,241 @@
+@import url(styles-hover.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #33A8DB;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #33A8DB;
+    letter-spacing: 6.08px;
+}
+
+a {
+    text-decoration: none;
+    color: #33A8DB;
+}
+
+span {
+    color: #33A8DB;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+}
+
+main, footer {
+    background-color: #000;
+}
+
+footer {
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 1px solid #33A8DB;
+    border-bottom: 1px solid #33A8DB;
+}
+
+.banner {
+    background-image: url(./assets/images/banner.png), linear-gradient(to bottom, #000, #0b242e, #0b242e, #000);
+    height: 605px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #33A8DB;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 520px;
+    height: 393px;
+    gap: 16px;
+    margin-left: 15px;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.304);
+    display: flex;
+    justify-content: center;
+}
+
+#text-trilha-css {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+#button-inscrever {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: 3.36px;
+    text-transform: uppercase;
+    color: #33A8DB;
+    background-color: #33a9db00;
+    border: 2px solid #33A8DB;
+    padding: 19px;
+    width: 326px;
+    gap: 31px;
+    cursor: pointer;
+}
+
+#course-content {
+    background-color: rgb(0,0,0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 118px;
+    padding-bottom: 100px;
+    border-top: 1px solid #33A8DB;
+}
+
+#text-aprender {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 792px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#transform-world {
+    background-image: url(./assets/images/woman-code.png);
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    background-attachment: fixed;
+    background-position-y: -100px;
+    display: flex;
+    justify-content: left;
+    border-top: 1px solid #33A8DB;
+    border-bottom: 1px solid #33A8DB;
+}
+
+.text-transform-world {
+    font-family: 'Raleway', sans-serif;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 900;
+    width: 275px;
+    margin-top: 120px;
+    margin-left: 198px;
+    margin-bottom: 120px;
+    text-transform: lowercase;
+    text-shadow: 3px 2px 0px #33A8DB;
+}
+
+#professional-challenges {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+    background: #000;
+}
+
+#professional-challenges h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 790px;
+    height: 76px;
+    margin-left: 300px;
+    margin-top: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 6.08px;
+}
+
+#professional-challenges img {
+    width: 659px;
+    margin-left: 360px;
+}
+
+#professional-challenges p {
+    width: 792px;
+    margin-left: 300px;
+    margin-bottom: 91px;
+    margin-top: 5px;
+    font-family: 'Raleway', sans-serif;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 16px;
+}
+
+footer img {
+    width: 310px;
+    margin-top: 59px;
+    margin-left: 540px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin-left: 570px;
+    margin-bottom: 38px ;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #FFF;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+
+.module {
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid #33A8DB;
+    border-radius: 57px;
+    background: #252525;
+    box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.40) inset;
+    width: 535px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.modules-list {
+    color: #ffffff;
+    width: 535px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
